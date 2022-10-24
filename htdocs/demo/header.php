@@ -148,11 +148,7 @@ if (is_dir($directory)) {
     }
 }
 
-echo "<a href=\"" . $rootURL . "cve\" class=\"w3-bar-item w3-button\">CVE Tool</a>\r\n";
-// echo "<a href=\"".$rootURL."js\" class=\"w3-bar-item w3-button\">JavaScript Demo</a>\r\n";
-// echo "<a href=\"$firstURL/blackjack\" class=\"w3-bar-item w3-button\">Blackjack</a>\r\n";
 
-echo "<a href=\"" . $rootURL . "staging\" class=\"w3-bar-item w3-button\">Staging</a>\r\n";
 
 dynamicMenu($menuArray, $directory, $rootURL);
 // End demo dir drop down
@@ -164,67 +160,25 @@ dynamicMenu($menuArray, $directory, $rootURL);
 			<div class="w3-border-right w3-dropdown-hover w3-hide-small">
 				<button
 					class="w3-button  w3-padding-small"
-					title="Staging">
-					STAGING <i class="fa fa-caret-down"></i>
+					title="Damn Vulnerable Web App">
+					DAMN VULNERABLE WEB APP <i class="fa fa-caret-down"></i>
 				</button>
 				<div class="w3-dropdown-content w3-bar-block w3-card-4">
  
 <?php
-// Staging dir drop down
-$output = "";
 
-$directory = __DIR__ . "\\staging";
-$menuArray = array();
-if (is_dir($directory)) {
-    if ($handle = opendir($directory)) {
-        while (($file = readdir($handle)) !== FALSE) {
-            $menuArray[] = $file;
-        }
-        closedir($handle);
-    }
-}
 
-// echo "<a href=\"".$rootURL."js\" class=\"w3-bar-item w3-button\">JavaScript Demo</a>\r\n";
-// echo "<a href=\"$firstURL/blackjack\" class=\"w3-bar-item w3-button\">Blackjack</a>\r\n";
+echo "<a href=\"" . $domainURL . "dvwa\" class=\"w3-bar-item w3-button\">DVWA User Interface</a>\r\n";
+echo "<a href=\"" . $domainURL . "phpmyadmin\" class=\"w3-bar-item w3-button\">DVWA Database Administrator Interface</a>\r\n";
 
-$stagingURL = $rootURL . "staging/";
-dynamicMenu($menuArray, $directory, $stagingURL);
+echo "<a href=\"" . $rootURL . "cve\" class=\"w3-bar-item w3-button\">CVE Tool</a>\r\n";
+
+
+
 // End staging dir drop down
 ?>
  
- 				</div>
-			</div>
-
-			<div class="w3-border-right w3-dropdown-hover w3-hide-small">
-				<button
-					class="w3-button  w3-padding-small"
-					title="Staging">
-					SNIPPETS <i class="fa fa-caret-down"></i>
-				</button>
-				<div class="w3-dropdown-content w3-bar-block w3-card-4">
  
-<?php
-// Staging dir drop down
-$output = "";
-
-$directory = __DIR__ . "\\snippets";
-$menuArray = array();
-if (is_dir($directory)) {
-    if ($handle = opendir($directory)) {
-        while (($file = readdir($handle)) !== FALSE) {
-            $menuArray[] = $file;
-        }
-        closedir($handle);
-    }
-}
-
-// echo "<a href=\"".$rootURL."js\" class=\"w3-bar-item w3-button\">JavaScript Demo</a>\r\n";
-// echo "<a href=\"$firstURL/blackjack\" class=\"w3-bar-item w3-button\">Blackjack</a>\r\n";
-
-$snippetsURL = $rootURL . "snippets/";
-dynamicMenu($menuArray, $directory, $snippetsURL);
-// End staging dir drop down
-?>
  
  				</div>
 			</div>
