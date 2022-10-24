@@ -5,7 +5,7 @@
 		$uri = 'http://';
 	}
 	$uri .= $_SERVER['HTTP_HOST'];
-	header('Location: '.$uri.'/wp/');
+	header('Location: '.$uri.'/demo/');
 	exit;
 ?>
 Something is wrong with the XAMPP installation :-(
