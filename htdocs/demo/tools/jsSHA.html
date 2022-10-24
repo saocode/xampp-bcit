@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html
+	xmlns="http://www.w3.org/1999/xhtml"
+	xml:lang="en"
+>
+<head>
+<title>jsSHA - SHA Hashes in JavaScript</title>
+<meta
+	http-equiv="Content-Type"
+	content="text/html;charset=utf-8"
+/>
+<meta
+	name="keywords"
+	content="SHA, SHA1, SHA-1, SHA-2, SHA2, SHA-3, SHA3, SHA-224, SHA-256, SHA-384, SHA-512, SHA-2, SHA3-224, SHA3-256, SHA3-384, SHA3-512,
+		SHAKE128, SHAKE256, SHAKE-128, SHAKE-256, SHAKE128, SHAKE256, cSHAKE128, cSHAKE256, cSHAKE-128, cSHAKE-256, KMAC128, KMAC256, KMAC-128, KMAC-256, HMAC,
+		KMAC, JavaScript, TypeScript, JS, Secure Hash Standard, hash, security, cryptography, FIPS 180, FIPS 202, FIPS 198, SP 800-185"
+/>
+<script
+	type="text/javascript"
+	src="tools/sha.js"
+></script>
+<script type="text/javascript">
+		function calcHash() {
+			try {
+				var hashInput = document.getElementById("hashInputText");
+				var hashInputType = document.getElementById("hashInputType");
+				var hashVariant = document.getElementById("hashVariant");
+				var hashRounds = document.getElementById("hashRounds");
+				var hashOutputType = document.getElementById("hashOutputType");
+				var hashOutput = document.getElementById("hashOutputText");
+				var hashObj = new jsSHA(
+					hashVariant.options[hashVariant.selectedIndex].value,
+					hashInputType.options[hashInputType.selectedIndex].value,
+					{numRounds: parseInt(hashRounds.value, 10)}
+				);
+				hashObj.update(hashInput.value);
+				hashOutput.value = hashObj.getHash(hashOutputType.options[hashOutputType.selectedIndex].value);
+			} catch(e) {
+				hashOutput.value = e.message
+			}
+		}
+
+		function calcHMAC() {
+			try {
+				var hmacText = document.getElementById("hmacInputText");
+				var hmacTextType = document.getElementById("hmacTextType");
+				var hmacKeyInput = document.getElementById("hmacInputKey");
+				var hmacKeyInputType = document.getElementById("hmacKeyType");
+				var hmacVariant = document.getElementById("hmacVariant");
+				var hmacOutputType = document.getElementById("hmacOutputType");
+				var hmacOutput = document.getElementById("hmacOutputText");
+				var hmacObj = new jsSHA(
+					hmacVariant.options[hmacVariant.selectedIndex].value,
+					hmacTextType.options[hmacTextType.selectedIndex].value
+				);
+				hmacObj.setHMACKey(
+					hmacKeyInput.value,
+					hmacKeyInputType.options[hmacKeyInputType.selectedIndex].value
+				);
+				hmacObj.update(hmacText.value);
+
+				hmacOutput.value = hmacObj.getHMAC(hmacOutputType.options[hmacOutputType.selectedIndex].value);
+			} catch(e) {
+				hmacOutput.value = e.message
+			}
+		}
+	</script>
+<body onload="calcHash();calcHMAC()">
+	<ul class="w3-ul w3-border w3-left w3-hover-shadow w3-margin-bottom">
+		<li class="w3-black w3-xlarge w3-padding-32">jsSHA (JavaScript
+			Secure Hash Algorithm)</li>
+		<li>jsSHA is a JavaScript/TypeScript implementation of the entire
+			family of SHA hashes as defined in <a
+			href="https://csrc.nist.gov/publications/detail/fips/180/4/final"
+		>FIPS PUB 180-4</a>, <a
+			href="https://csrc.nist.gov/publications/detail/fips/202/final"
+		>FIPS PUB 202</a>, and <a
+			href="https://csrc.nist.gov/publications/detail/sp/800-185/final"
+		>SP 800-185</a>.
+		</li>
+	</ul>
+	<ul class="w3-ul w3-border w3-left w3-hover-shadow w3-margin-bottom">
+		<li>
+			<form
+				action="#"
+				method="get"
+			>
+				<fieldset>
+					<legend>Hashing Demo</legend>
+					<p>
+						Simply insert your text to be hashed, input type, the SHA variant
+						you wish to use, and the output format.<br />
+						<p>
+							Note: You may have to scroll the output text for longer length
+							hashes.
+							<div>
+								<p>
+									<label for="hashInputText">Input Text:&nbsp </label> <input
+										type="text"
+										size="75"
+										name="hashInputText"
+										id="hashInputText"
+										onkeyup="calcHash()"
+									/>
+							</div>
+							<div>
+								<p>
+									<label for="hashInputType">Input Type:&nbsp</label> <select
+										name="hashInputType"
+										id="hashInputType"
+										onchange="calcHash()"
+									>
+										<option value="B64">Base-64</option>
+										<option selected="selected">TEXT</option>
+										<option>HEX</option>
+									</select>
+							</div>
+							<div>
+								<label for="hashVariant">SHA Variant:&nbsp</label> <select
+									name="hashVariant"
+									id="hashVariant"
+									onchange="calcHash()"
+								>
+									<option>SHA-1</option>
+									<option>SHA-224</option>
+									<option>SHA3-224</option>
+									<option>SHA-256</option>
+									<option>SHA3-256</option>
+									<option>SHA-384</option>
+									<option>SHA3-384</option>
+									<option>SHA-512</option>
+									<option>SHA3-512</option>
+								</select>
+							</div>
+							<div>
+								<p>
+									<label for="hashRounds">Number of Rounds:&nbsp</label><input
+										type="text"
+										size="5"
+										name="hashRounds"
+										id="hashRounds"
+										value="1"
+										onkeyup="calcHash()"
+									/>
+							</div>
+							<div>
+								<p>
+									<label for="hashOutputType">Output Type:&nbsp</label> <select
+										name="hashOutputType"
+										id="hashOutputType"
+										onchange="calcHash()"
+									>
+										<option value="B64">Base-64</option>
+										<option selected="selected">HEX</option>
+									</select>
+							</div>
+							<div>
+								<label for="hashOutputText">Output Hash:&nbsp</label> <input
+									type="text"
+									size="75"
+									name="hashOutputText"
+									id="hashOutputText"
+									style="background-color: #b1ceed"
+								/>
+							</div>
+				</fieldset>
+				<br>
+			</form>
+			</div>
+	</ul>
+	</div>
+	
+</body>
+</html>

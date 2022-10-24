@@ -1,0 +1,4 @@
+[2021-04-02 11:24:31.117] [v8_win] [debug] V8Engine::Initialize - enter
+[2021-04-02 11:24:31.117] [v8_win] [debug] V8Engine::InitializeV8 - enter
+[2021-04-02 11:24:31.214] [v8_win] [debug] V8Engine::InitializeV8 - leave
+[2021-04-02 11:24:31.217] [v8_win] [debug] V8Engine::Initialize - leave strResult=''

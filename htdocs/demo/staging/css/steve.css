@@ -1,0 +1,36 @@
+.blink_me {
+  animation: blinker 1.5s linear infinite;
+  font-weight:bolder;
+  color:red;
+
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+input[type="checkbox"], label {
+    float: left;
+    line-height: 1.6em;
+    height: 1.6em;
+    margin: 0px 0px;
+    padding: 0px;
+    font-size: inherit;
+}
+
+
+
+.w3-margin-small{margin:8px!important}.w3-margin-top-small{margin-top:8px!important}.w3-margin-bottom-small{margin-bottom:8px!important}
+.w3-margin-left-small{margin-left:8px!important}.w3-margin-right-small{margin-right:8px!important}
+.card-black{font-size:128px!important; color: black;}
+.card-red{font-size:128px!important; color: red;}
+.card-blue{font-size:128px!important; color: blue;}
+
+table.dataTable th.dt-center, table.dataTable td.dt-center, table.dataTable td.dataTables_empty
+	{
+	width: 100%
+}
+
+
+

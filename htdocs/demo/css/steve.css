@@ -1,0 +1,38 @@
+.blink_me {
+  animation: blinker 1.5s linear infinite;
+  font-weight:bolder;
+  color:red;
+
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+input[type="checkbox"], label {
+    float: left;
+    line-height: 1.6em;
+    height: 1.6em;
+    margin: 0px 0px;
+    padding: 0px;
+    font-size: inherit;
+}
+
+
+table.dataTable th.dt-center, table.dataTable td.dt-center, table.dataTable td.dataTables_empty
+	{
+	width: 100%
+}
+
+body,h1,h2,h3,h4,h5,h6 {
+  font-family: consolas;
+}
+
+.w3-hover-shadow-red:hover{box-shadow:0 4px 10px 0 	
+rgba(244,67,54,.6),0 4px 20px 0 	
+rgba(244,67,54,.5)}
+
+.w3-hover-shadow-blue:hover{box-shadow:0 4px 10px 0 	
+rgba(33,150,243,0.6),0 4px 20px 0 	
+rgba(33,150,243,0.5)}

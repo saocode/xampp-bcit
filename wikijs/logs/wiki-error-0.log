@@ -1,0 +1,185 @@
+2020-03-12T23:25:28.367Z - [31merror[39m: [SERVER]  Error: This entry already exists!
+    at C:\xampp\wikijs\server\libs\entries.js:329:31
+    at tryCatcher (C:\xampp\wikijs\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\xampp\wikijs\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\xampp\wikijs\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\xampp\wikijs\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\xampp\wikijs\node_modules\bluebird\js\release\promise.js:693:18)
+    at Async._drainQueue (C:\xampp\wikijs\node_modules\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (C:\xampp\wikijs\node_modules\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (C:\xampp\wikijs\node_modules\bluebird\js\release\async.js:17:14)
+    at processImmediate (internal/timers.js:456:21)
+    at process.topLevelDomainCallback (domain.js:137:15)
+2020-03-12T23:25:28.590Z - [31merror[39m: [SERVER]  Error: This entry already exists!
+    at C:\xampp\wikijs\server\libs\entries.js:329:31
+    at tryCatcher (C:\xampp\wikijs\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (C:\xampp\wikijs\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (C:\xampp\wikijs\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (C:\xampp\wikijs\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (C:\xampp\wikijs\node_modules\bluebird\js\release\promise.js:693:18)
+    at Async._drainQueue (C:\xampp\wikijs\node_modules\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (C:\xampp\wikijs\node_modules\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues [as _onImmediate] (C:\xampp\wikijs\node_modules\bluebird\js\release\async.js:17:14)
+    at processImmediate (internal/timers.js:456:21)
+    at process.topLevelDomainCallback (domain.js:137:15)
+2020-04-02T20:25:38.428Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2020-04-02T20:25:38.845Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2020-04-02T20:25:40.960Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{
+  code: [33m1[39m,
+  message: [32m'`git --git-dir=c:\\xampp\\wikijs\\repo\\.git --work-tree=c:\\xampp\\wikijs\\repo pull origin master` failed with code 1'[39m,
+  stderr: [32m"fatal: unable to access 'https://github.com/saocode/wikijs/': The requested URL returned error: 504\n"[39m,
+  stdout: [32m''[39m
+}
+2020-04-02T20:30:35.067Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2020-04-02T20:30:35.068Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2020-04-02T20:30:35.159Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{
+  code: [33m1[39m,
+  message: [32m'`git --git-dir=c:\\xampp\\wikijs\\repo\\.git --work-tree=c:\\xampp\\wikijs\\repo pull origin master` failed with code 1'[39m,
+  stderr: [32m"fatal: unable to access 'https://github.com/saocode/wikijs/': The requested URL returned error: 504\n"[39m,
+  stdout: [32m''[39m
+}
+2020-04-02T20:35:34.087Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2020-04-02T20:35:34.087Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2020-04-02T20:35:34.088Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{
+  code: [33m1[39m,
+  message: [32m'`git --git-dir=c:\\xampp\\wikijs\\repo\\.git --work-tree=c:\\xampp\\wikijs\\repo pull origin master` failed with code 1'[39m,
+  stderr: [32m"fatal: unable to access 'https://github.com/saocode/wikijs/': The requested URL returned error: 504\n"[39m,
+  stdout: [32m''[39m
+}
+2020-04-02T20:45:35.112Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2020-04-02T20:45:35.112Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2020-04-02T20:45:35.112Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{
+  code: [33m1[39m,
+  message: [32m'`git --git-dir=c:\\xampp\\wikijs\\repo\\.git --work-tree=c:\\xampp\\wikijs\\repo pull origin master` failed with code 1'[39m,
+  stderr: [32m"fatal: unable to access 'https://github.com/saocode/wikijs/': The requested URL returned error: 504\n"[39m,
+  stdout: [32m''[39m
+}
+2020-04-02T21:00:35.159Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2020-04-02T21:00:35.160Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2020-04-02T21:00:35.160Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{
+  code: [33m1[39m,
+  message: [32m'`git --git-dir=c:\\xampp\\wikijs\\repo\\.git --work-tree=c:\\xampp\\wikijs\\repo pull origin master` failed with code 1'[39m,
+  stderr: [32m"fatal: unable to access 'https://github.com/saocode/wikijs/': The requested URL returned error: 504\n"[39m,
+  stdout: [32m''[39m
+}
+2020-04-04T21:30:02.413Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2020-04-04T21:30:02.547Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2020-04-04T21:30:03.172Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{
+  code: [33m1[39m,
+  message: [32m'`git --git-dir=c:\\xampp\\wikijs\\repo\\.git --work-tree=c:\\xampp\\wikijs\\repo pull origin master` failed with code 1'[39m,
+  stderr: [32m''[39m,
+  stdout: [32m''[39m
+}
+2020-04-05T11:55:06.776Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2020-04-05T11:55:06.897Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2020-04-05T11:55:07.392Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{
+  code: [33m1[39m,
+  message: [32m'`git --git-dir=c:\\xampp\\wikijs\\repo\\.git --work-tree=c:\\xampp\\wikijs\\repo pull origin master` failed with code 1'[39m,
+  stderr: [32m'fatal: the remote end hung up unexpectedly\n'[39m,
+  stdout: [32m''[39m
+}
+2020-04-05T12:00:04.121Z - [31merror[39m: [AGENT] Unable to fetch from git origin!
+2020-04-05T12:00:04.121Z - [31merror[39m: [AGENT] Unable to push changes to remote Git repository!
+2020-04-05T12:00:04.193Z - [31merror[39m: [AGENT] One or more jobs have failed:  
+{
+  code: [33m1[39m,
+  message: [32m'`git --git-dir=c:\\xampp\\wikijs\\repo\\.git --work-tree=c:\\xampp\\wikijs\\repo pull origin master` failed with code 1'[39m,
+  stderr: [32m'fatal: Out of memory, malloc failed (tried to allocate 1048320 bytes)\n'[39m +
+    [32m'fatal: unable to write flush packet: Broken pipe\n'[39m,
+  stdout: [32m''[39m
+}
+FATAL ERROR: Committing semi space failed. Allocation failed - JavaScript heap out of memory
+
+Writing Node.js report to file: report.20200405.050316.3572.0.001.json
+Node.js report completed
+ 1: 000000013FFA363F napi_wrap+128063
+ 2: 000000013FF42836 public: bool __cdecl v8::base::CPU::has_sse(void)const __ptr64+35142
+ 3: 000000013FF434F6 public: bool __cdecl v8::base::CPU::has_sse(void)const __ptr64+38406
+ 4: 0000000140759F4E private: void __cdecl v8::Isolate::ReportExternalAllocationLimitReached(void) __ptr64+94
+ 5: 0000000140742021 public: class v8::SharedArrayBuffer::Contents __cdecl v8::SharedArrayBuffer::Externalize(void) __ptr64+833
+ 6: 000000014060E57C public: static void __cdecl v8::internal::Heap::EphemeronKeyWriteBarrierFromCode(unsigned __int64,unsigned __int64,class v8::internal::Isolate * __ptr64)+1436
+ 7: 0000000140616521 public: static bool __cdecl v8::internal::Heap::PageFlagsAreConsistent(class v8::internal::HeapObject)+3761
+ 8: 000000014060BB13 public: bool __cdecl v8::internal::Heap::CollectGarbage(enum v8::internal::AllocationSpace,enum v8::internal::GarbageCollectionReason,enum v8::GCCallbackFlags) __ptr64+1283
+ 9: 000000014060A184 public: void __cdecl v8::internal::Heap::AddRetainedMap(class v8::internal::Handle<class v8::internal::Map>) __ptr64+2452
+10: 000000014062B36D public: class v8::internal::Handle<class v8::internal::HeapObject> __cdecl v8::internal::Factory::NewFillerObject(int,bool,enum v8::internal::AllocationType,enum v8::internal::AllocationOrigin) __ptr64+61
+11: 0000000140390C51 ??4iterator@JumpTableTargetOffsets@interpreter@internal@v8@@QEAAAEAV01234@$$QEAV01234@@Z+1665
+12: 0000000140BA4DDD public: virtual bool __cdecl v8::internal::SetupIsolateDelegate::SetupHeap(class v8::internal::Heap * __ptr64) __ptr64+546637
+13: 000002DC09B257CE 
+2020-04-05T12:04:53.595Z - [31merror[39m: [SERVER] Failed to connect to MongoDB instance.
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+MongoError: failed to connect to server [localhost:27017] on first connect [Error [MongoError]: connection 0 to localhost:27017 timed out
+    at Function.MongoError.create (C:\xampp\wikijs\node_modules\mongodb-core\lib\error.js:29:11)
+    at Socket.<anonymous> (C:\xampp\wikijs\node_modules\mongodb-core\lib\connection\connection.js:198:20)
+    at Object.onceWrapper (events.js:417:28)
+    at Socket.emit (events.js:311:20)
+    at Socket.EventEmitter.emit (domain.js:482:12)
+    at Socket._onTimeout (net.js:478:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7) {
+  name: 'MongoError',
+  message: 'connection 0 to localhost:27017 timed out'
+}]
+    at Pool.<anonymous> (C:\xampp\wikijs\node_modules\mongodb-core\lib\topologies\server.js:336:35)
+    at Pool.emit (events.js:311:20)
+    at Pool.EventEmitter.emit (domain.js:482:12)
+    at Connection.<anonymous> (C:\xampp\wikijs\node_modules\mongodb-core\lib\connection\pool.js:280:12)
+    at Object.onceWrapper (events.js:418:26)
+    at Connection.emit (events.js:311:20)
+    at Connection.EventEmitter.emit (domain.js:482:12)
+    at Socket.<anonymous> (C:\xampp\wikijs\node_modules\mongodb-core\lib\connection\connection.js:197:10)
+    at Object.onceWrapper (events.js:417:28)
+    at Socket.emit (events.js:311:20)
+    at Socket.EventEmitter.emit (domain.js:482:12)
+    at Socket._onTimeout (net.js:478:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+Unhandled rejection MongoError: failed to connect to server [localhost:27017] on first connect [Error [MongoError]: connection 0 to localhost:27017 timed out
+    at Function.MongoError.create (C:\xampp\wikijs\node_modules\mongodb-core\lib\error.js:29:11)
+    at Socket.<anonymous> (C:\xampp\wikijs\node_modules\mongodb-core\lib\connection\connection.js:198:20)
+    at Object.onceWrapper (events.js:417:28)
+    at Socket.emit (events.js:311:20)
+    at Socket.EventEmitter.emit (domain.js:482:12)
+    at Socket._onTimeout (net.js:478:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7) {
+  name: 'MongoError',
+  message: 'connection 0 to localhost:27017 timed out'
+}]
+    at Pool.<anonymous> (C:\xampp\wikijs\node_modules\mongodb-core\lib\topologies\server.js:336:35)
+    at Pool.emit (events.js:311:20)
+    at Pool.EventEmitter.emit (domain.js:482:12)
+    at Connection.<anonymous> (C:\xampp\wikijs\node_modules\mongodb-core\lib\connection\pool.js:280:12)
+    at Object.onceWrapper (events.js:418:26)
+    at Connection.emit (events.js:311:20)
+    at Connection.EventEmitter.emit (domain.js:482:12)
+    at Socket.<anonymous> (C:\xampp\wikijs\node_modules\mongodb-core\lib\connection\connection.js:197:10)
+    at Object.onceWrapper (events.js:417:28)
+    at Socket.emit (events.js:311:20)
+    at Socket.EventEmitter.emit (domain.js:482:12)
+    at Socket._onTimeout (net.js:478:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+2020-04-05T12:05:33.875Z - [31merror[39m: [AGENT] Failed to connect to MongoDB instance.
+Unhandled rejection MongoError: failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1137:16) {
+  name: 'MongoError',
+  message: 'connect ECONNREFUSED 127.0.0.1:27017'
+}]
+    at Pool.<anonymous> (C:\xampp\wikijs\node_modules\mongodb-core\lib\topologies\server.js:336:35)
+    at Pool.emit (events.js:311:20)
+    at Connection.<anonymous> (C:\xampp\wikijs\node_modules\mongodb-core\lib\connection\pool.js:280:12)
+    at Object.onceWrapper (events.js:418:26)
+    at Connection.emit (events.js:311:20)
+    at Socket.<anonymous> (C:\xampp\wikijs\node_modules\mongodb-core\lib\connection\connection.js:187:49)
+    at Object.onceWrapper (events.js:418:26)
+    at Socket.emit (events.js:311:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)

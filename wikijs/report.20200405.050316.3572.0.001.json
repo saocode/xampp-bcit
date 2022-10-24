@@ -1,0 +1,374 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200405.050316.3572.0.001.json",
+    "dumpEventTime": "2020-04-05T05:03:16Z",
+    "dumpEventTimeStamp": "1586088196850",
+    "processId": 3572,
+    "cwd": "C:\\xampp\\wikijs",
+    "commandLine": [
+      "node",
+      "C:\\xampp\\wikijs\\node_modules\\pm2\\lib\\ProcessContainerFork.js"
+    ],
+    "nodejsVersion": "v12.16.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.1",
+      "v8": "7.8.279.23-node.31",
+      "uv": "1.34.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "6.1.7601",
+    "osVersion": "Windows Server 2008 R2 Datacenter Service Pack 1",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+        "speed": 2200,
+        "user": 155440750,
+        "nice": 0,
+        "sys": 23597625,
+        "idle": 1860964203,
+        "irq": 217375
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Local Area Connection",
+        "internal": false,
+        "mac": "42:01:0a:8a:00:02",
+        "address": "fe80::880b:420:7bf3:c300",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 11
+      },
+      {
+        "name": "Local Area Connection",
+        "internal": false,
+        "mac": "42:01:0a:8a:00:02",
+        "address": "10.138.0.2",
+        "netmask": "255.255.240.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "windows1"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x000000013fe419f9",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000000013fe45e1c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000000013fe44dd8",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000000013ff434cb",
+      "symbol": ""
+    },
+    {
+      "pc": "0x0000000140759f4e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x0000000140742021",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000000014060e57c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x0000000140616521",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000000014060bb13",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000000014060a184",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000000014062b36d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x0000000140390c51",
+      "symbol": ""
+    },
+    {
+      "pc": "0x0000000140ba4ddd",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000002dc09b257ce",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 66228224,
+    "totalCommittedMemory": 66228224,
+    "usedMemory": 56650336,
+    "availableMemory": 881091440,
+    "memoryLimit": 937426944,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047456,
+        "used": 1047056,
+        "available": 400
+      },
+      "old_space": {
+        "memorySize": 49954816,
+        "committedMemory": 49954816,
+        "capacity": 49782944,
+        "used": 42497296,
+        "available": 7285648
+      },
+      "code_space": {
+        "memorySize": 4362240,
+        "committedMemory": 4362240,
+        "capacity": 4150240,
+        "used": 3104032,
+        "available": 1046208
+      },
+      "map_space": {
+        "memorySize": 2101248,
+        "committedMemory": 2101248,
+        "capacity": 2098528,
+        "used": 1585520,
+        "available": 513008
+      },
+      "large_object_space": {
+        "memorySize": 8183808,
+        "committedMemory": 8183808,
+        "capacity": 8127464,
+        "used": 8127464,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 315392,
+        "committedMemory": 315392,
+        "capacity": 256160,
+        "used": 256160,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047456,
+        "used": 0,
+        "available": 1047456
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 1170.75,
+    "kernelCpuSeconds": 140.406,
+    "cpuConsumptionPercent": 0.0643399,
+    "maxRss": 107327488,
+    "pageFaults": {
+      "IORequired": 50169590,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 51906,
+      "writes": 2055448
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\stevenoverland\\AppData\\Roaming",
+    "automation": "true",
+    "autorestart": "true",
+    "axm_actions": "",
+    "axm_dynamic": "[object Object]",
+    "axm_monitor": "[object Object]",
+    "axm_options": "[object Object]",
+    "CLIENTNAME": "PC",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "WINDOWS1",
+    "ComSpec": "C:\\Windows\\system32\\cmd.exe",
+    "created_at": "1584050184911",
+    "cwd": "C:\\xampp\\wikijs",
+    "env": "[object Object]",
+    "exec_interpreter": "node",
+    "exec_mode": "fork_mode",
+    "FP_NO_HOST_CHECK": "NO",
+    "GooGetRoot": "C:\\ProgramData\\GooGet",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\stevenoverland",
+    "instances": "1",
+    "instance_var": "NODE_APP_INSTANCE",
+    "km_link": "false",
+    "LOCALAPPDATA": "C:\\Users\\stevenoverland\\AppData\\Local",
+    "LOGONSERVER": "\\\\WINDOWS1",
+    "max_restarts": "5",
+    "min_uptime": "5000",
+    "name": "wiki",
+    "NODE_APP_INSTANCE": "0",
+    "node_args": "",
+    "NUMBER_OF_PROCESSORS": "1",
+    "OS": "Windows_NT",
+    "Path": "C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\ProgramData\\GooGet;C:\\Program Files\\Google\\Compute Engine\\metadata_scripts;C:\\Program Files (x86)\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Google\\Compute Engine\\sysprep;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\xampp\\nodejs\\;C:\\Users\\stevenoverland\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\stevenoverland\\AppData\\Local\\GitHubDesktop\\app-2.3.1\\resources\\app\\git\\cmd;C:\\Users\\stevenoverland\\AppData\\Roaming\\npm",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+    "PM2_HOME": "C:\\Users\\stevenoverland\\.pm2",
+    "PM2_JSON_PROCESSING": "true",
+    "PM2_PROGRAMMATIC": "true",
+    "pmx": "true",
+    "pm_cwd": "C:\\xampp\\wikijs",
+    "pm_err_log_path": "C:\\xampp\\wikijs\\logs\\wiki-error-0.log",
+    "pm_exec_path": "C:\\xampp\\wikijs\\server",
+    "pm_id": "0",
+    "pm_out_log_path": "C:\\xampp\\wikijs\\logs\\wiki-output-0.log",
+    "pm_pid_path": "C:\\Users\\stevenoverland\\.pm2\\pids\\wiki-0.pid",
+    "pm_uptime": "1584050184911",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 79 Stepping 0, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "4f00",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;C:\\Program Files (x86)\\Google\\Cloud SDK\\google-cloud-sdk\\platform\\PowerShell",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "C:\\xampp\\wikijs",
+    "restart_time": "0",
+    "SESSIONNAME": "RDP-Tcp#1",
+    "status": "launching",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\Windows",
+    "TEMP": "C:\\Users\\STEVEN~1\\AppData\\Local\\Temp\\2",
+    "TMP": "C:\\Users\\STEVEN~1\\AppData\\Local\\Temp\\2",
+    "treekill": "true",
+    "unstable_restarts": "0",
+    "USERDOMAIN": "WINDOWS1",
+    "USERDOMAIN_ROAMINGPROFILE": "WINDOWS1",
+    "USERNAME": "stevenoverland",
+    "USERPROFILE": "C:\\Users\\stevenoverland",
+    "VIPS_WARNING": "false",
+    "vizion": "true",
+    "vizion_running": "false",
+    "wiki": "{}",
+    "windir": "C:\\Windows",
+    "windows_tracing_flags": "3",
+    "windows_tracing_logfile": "C:\\BVTBin\\Tests\\installpackage\\csilogfile.log"
+  },
+  "sharedObjects": [
+    "C:\\xampp\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\system32\\kernel32.dll",
+    "C:\\Windows\\system32\\KERNELBASE.dll",
+    "C:\\Windows\\system32\\dbghelp.dll",
+    "C:\\Windows\\system32\\msvcrt.dll",
+    "C:\\Windows\\system32\\WS2_32.dll",
+    "C:\\Windows\\system32\\RPCRT4.dll",
+    "C:\\Windows\\system32\\NSI.dll",
+    "C:\\Windows\\system32\\IPHLPAPI.DLL",
+    "C:\\Windows\\system32\\WINNSI.DLL",
+    "C:\\Windows\\system32\\PSAPI.DLL",
+    "C:\\Windows\\system32\\USERENV.dll",
+    "C:\\Windows\\system32\\profapi.dll",
+    "C:\\Windows\\system32\\ADVAPI32.dll",
+    "C:\\Windows\\SYSTEM32\\sechost.dll",
+    "C:\\Windows\\system32\\USER32.dll",
+    "C:\\Windows\\system32\\GDI32.dll",
+    "C:\\Windows\\system32\\LPK.dll",
+    "C:\\Windows\\system32\\USP10.dll",
+    "C:\\Windows\\system32\\CRYPT32.dll",
+    "C:\\Windows\\system32\\MSASN1.dll",
+    "C:\\Windows\\system32\\bcrypt.dll",
+    "C:\\Windows\\system32\\WINMM.dll",
+    "C:\\Windows\\system32\\IMM32.DLL",
+    "C:\\Windows\\system32\\MSCTF.dll",
+    "C:\\Windows\\system32\\api-ms-win-core-synch-l1-2-0.DLL",
+    "C:\\Windows\\system32\\powrprof.dll",
+    "C:\\Windows\\system32\\SETUPAPI.dll",
+    "C:\\Windows\\system32\\CFGMGR32.dll",
+    "C:\\Windows\\system32\\OLEAUT32.dll",
+    "C:\\Windows\\system32\\ole32.dll",
+    "C:\\Windows\\system32\\DEVOBJ.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\System32\\wshtcpip.dll",
+    "C:\\Windows\\System32\\wship6.dll",
+    "C:\\Windows\\system32\\bcryptprimitives.dll",
+    "C:\\Windows\\system32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\system32\\dhcpcsvc.DLL",
+    "C:\\Windows\\system32\\cryptbase.dll",
+    "C:\\Windows\\system32\\DNSAPI.dll",
+    "C:\\Windows\\System32\\fwpuclnt.dll",
+    "C:\\Windows\\system32\\rasadhlp.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\System32\\winrnr.dll",
+    "C:\\Windows\\system32\\apphelp.dll"
+  ]
+}

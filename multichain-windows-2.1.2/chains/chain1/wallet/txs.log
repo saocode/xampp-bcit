@@ -1,0 +1,186 @@
+2021-04-02 11:24:31	Initialized. Chain height: -1, Txs: 0
+2021-04-02 11:24:31	Entity (00000101, 0000000000000000000000000000000000000000) added successfully
+2021-04-02 11:24:31	Entity (00000201, 0000000000000000000000000000000000000000) added successfully
+2021-04-02 11:24:31	Entity (00000102, 0000000000000000000000000000000000000000) added successfully
+2021-04-02 11:24:31	Entity (00000202, 0000000000000000000000000000000000000000) added successfully
+2021-04-02 11:24:31	Entity (00000103, 3c60f6c1936044b6da7c2c0e3af392deb3ffba51) added successfully
+2021-04-02 11:24:31	Entity (00000203, 3c60f6c1936044b6da7c2c0e3af392deb3ffba51) added successfully
+2021-04-02 11:24:31	Entity (00000105, 000000003129e2c547d9c81a23b93676f002b4e5) added successfully
+2021-04-02 11:24:31	Entity (00000205, 000000003129e2c547d9c81a23b93676f002b4e5) added successfully
+2021-04-02 11:24:31	Entity (00000106, 000000003129e2c547d9c81a23b93676f002b4e5) added successfully
+2021-04-02 11:24:31	Entity (00000206, 000000003129e2c547d9c81a23b93676f002b4e5) added successfully
+2021-04-02 11:24:31	Entity (00000107, 000000003129e2c547d9c81a23b93676f002b4e5) added successfully
+2021-04-02 11:24:31	Entity (00000207, 000000003129e2c547d9c81a23b93676f002b4e5) added successfully
+2021-04-02 11:24:31	NewBlock 0, Txs: 0, Rows: 0
+2021-04-02 11:24:31	NewTx e4e55b1769f52423bc3c1c21fb21f892728eb1615faef7a21e329f1c2507bd0c, block 1, flags 00000006, import 0
+2021-04-02 11:24:31	NewBlock 1, Txs: 1, Rows: 6
+2021-04-02 11:24:32	NewBlock 2, Txs: 0, Rows: 0
+2021-04-02 11:24:40	NewBlock 3, Txs: 0, Rows: 0
+2021-04-02 11:24:57	NewBlock 4, Txs: 0, Rows: 0
+2021-04-02 11:25:08	NewBlock 5, Txs: 0, Rows: 0
+2021-04-02 11:25:28	NewBlock 6, Txs: 0, Rows: 0
+2021-04-02 11:25:45	NewBlock 7, Txs: 0, Rows: 0
+2021-04-02 11:26:01	NewBlock 8, Txs: 0, Rows: 0
+2021-04-02 11:26:15	NewBlock 9, Txs: 0, Rows: 0
+2021-04-02 11:26:36	NewBlock 10, Txs: 0, Rows: 0
+2021-04-02 11:26:56	NewBlock 11, Txs: 0, Rows: 0
+2021-04-02 11:27:16	NewBlock 12, Txs: 0, Rows: 0
+2021-04-02 11:27:19	NewBlock 13, Txs: 0, Rows: 0
+2021-04-02 11:27:38	NewBlock 14, Txs: 0, Rows: 0
+2021-04-02 11:27:51	NewBlock 15, Txs: 0, Rows: 0
+2021-04-02 11:28:04	NewBlock 16, Txs: 0, Rows: 0
+2021-04-02 11:28:17	NewBlock 17, Txs: 0, Rows: 0
+2021-04-02 11:28:28	NewBlock 18, Txs: 0, Rows: 0
+2021-04-02 11:28:44	NewBlock 19, Txs: 0, Rows: 0
+2021-04-02 11:29:03	NewBlock 20, Txs: 0, Rows: 0
+2021-04-02 11:29:15	NewBlock 21, Txs: 0, Rows: 0
+2021-04-02 11:29:30	NewBlock 22, Txs: 0, Rows: 0
+2021-04-02 11:29:57	NewBlock 23, Txs: 0, Rows: 0
+2021-04-02 11:30:04	NewBlock 24, Txs: 0, Rows: 0
+2021-04-02 11:30:13	NewBlock 25, Txs: 0, Rows: 0
+2021-04-02 11:30:25	NewBlock 26, Txs: 0, Rows: 0
+2021-04-02 11:30:40	NewBlock 27, Txs: 0, Rows: 0
+2021-04-02 11:31:00	NewBlock 28, Txs: 0, Rows: 0
+2021-04-02 11:31:17	NewBlock 29, Txs: 0, Rows: 0
+2021-04-02 11:31:32	NewBlock 30, Txs: 0, Rows: 0
+2021-04-02 11:31:48	NewBlock 31, Txs: 0, Rows: 0
+2021-04-02 11:32:03	NewBlock 32, Txs: 0, Rows: 0
+2021-04-02 11:32:11	NewBlock 33, Txs: 0, Rows: 0
+2021-04-02 11:32:34	NewBlock 34, Txs: 0, Rows: 0
+2021-04-02 11:32:46	NewBlock 35, Txs: 0, Rows: 0
+2021-04-02 11:32:59	NewBlock 36, Txs: 0, Rows: 0
+2021-04-02 11:33:09	NewBlock 37, Txs: 0, Rows: 0
+2021-04-02 11:33:31	NewBlock 38, Txs: 0, Rows: 0
+2021-04-02 11:33:50	NewBlock 39, Txs: 0, Rows: 0
+2021-04-02 11:34:06	NewBlock 40, Txs: 0, Rows: 0
+2021-04-02 11:34:18	NewBlock 41, Txs: 0, Rows: 0
+2021-04-02 11:34:29	NewBlock 42, Txs: 0, Rows: 0
+2021-04-02 11:34:53	NewBlock 43, Txs: 0, Rows: 0
+2021-04-02 11:35:05	NewBlock 44, Txs: 0, Rows: 0
+2021-04-02 11:35:24	NewBlock 45, Txs: 0, Rows: 0
+2021-04-02 11:35:40	NewBlock 46, Txs: 0, Rows: 0
+2021-04-02 11:35:49	NewBlock 47, Txs: 0, Rows: 0
+2021-04-02 11:35:58	NewBlock 48, Txs: 0, Rows: 0
+2021-04-02 11:36:19	NewBlock 49, Txs: 0, Rows: 0
+2021-04-02 11:36:31	NewBlock 50, Txs: 0, Rows: 0
+2021-04-02 11:36:56	NewBlock 51, Txs: 0, Rows: 0
+2021-04-02 11:37:01	NewBlock 52, Txs: 0, Rows: 0
+2021-04-02 11:37:24	NewBlock 53, Txs: 0, Rows: 0
+2021-04-02 11:37:41	NewBlock 54, Txs: 0, Rows: 0
+2021-04-02 11:37:59	NewBlock 55, Txs: 0, Rows: 0
+2021-04-02 11:38:15	NewBlock 56, Txs: 0, Rows: 0
+2021-04-02 11:38:25	NewBlock 57, Txs: 0, Rows: 0
+2021-04-02 11:38:36	NewBlock 58, Txs: 0, Rows: 0
+2021-04-02 11:38:49	NewBlock 59, Txs: 0, Rows: 0
+2021-04-02 11:46:05	NewTx fa84b2b2ffce4c9b720042885334b611a9e09d057ecbbcffd3107e068eab5787, block -1, flags 00030004, import 0
+2021-04-02 11:46:27	UpdateTx fa84b2b2ff, block 60, flags 00030004, import 0
+2021-04-02 11:46:27	NewBlock 60, Txs: 1, Rows: 6
+2021-04-02 11:46:28	NewBlock 61, Txs: 0, Rows: 0
+2021-04-02 11:46:34	NewBlock 62, Txs: 0, Rows: 0
+2021-04-02 11:46:36	NewBlock 63, Txs: 0, Rows: 0
+2021-04-02 11:46:46	NewBlock 64, Txs: 0, Rows: 0
+2021-04-02 11:46:47	NewBlock 65, Txs: 0, Rows: 0
+2021-04-02 11:46:49	NewBlock 66, Txs: 0, Rows: 0
+2021-04-02 11:47:03	NewBlock 67, Txs: 0, Rows: 0
+2021-04-02 11:47:07	NewBlock 68, Txs: 0, Rows: 0
+2021-04-02 11:47:12	NewBlock 69, Txs: 0, Rows: 0
+2021-04-02 11:47:21	NewBlock 70, Txs: 0, Rows: 0
+2021-04-02 11:47:26	Entity (00000103, a5b5233b22f1ed2115ec2163283708a471ea14c6) added successfully
+2021-04-02 11:47:26	Entity (00000203, a5b5233b22f1ed2115ec2163283708a471ea14c6) added successfully
+2021-04-02 11:48:03	Entity (00000103, 8c560b212f4f134fe3506ebd728c58053a251316) added successfully
+2021-04-02 11:48:03	Entity (00000203, 8c560b212f4f134fe3506ebd728c58053a251316) added successfully
+2021-04-02 11:49:55	NewTx a5f469772104cc580184e7dcc6a551f679bc4e1706a4c5bc8408e28c40785313, block -1, flags 00030004, import 0
+2021-04-02 11:50:16	UpdateTx a5f4697721, block 71, flags 00030004, import 0
+2021-04-02 11:50:16	NewBlock 71, Txs: 1, Rows: 6
+2021-04-02 11:50:27	NewBlock 72, Txs: 0, Rows: 0
+2021-04-02 11:50:35	NewBlock 73, Txs: 0, Rows: 0
+2021-04-02 11:50:39	NewBlock 74, Txs: 0, Rows: 0
+2021-04-02 11:50:50	NewBlock 75, Txs: 0, Rows: 0
+2021-04-02 11:50:58	NewBlock 76, Txs: 0, Rows: 0
+2021-04-02 11:51:06	NewBlock 77, Txs: 0, Rows: 0
+2021-04-02 11:51:21	NewBlock 78, Txs: 0, Rows: 0
+2021-04-02 11:51:32	NewBlock 79, Txs: 0, Rows: 0
+2021-04-02 11:51:34	NewBlock 80, Txs: 0, Rows: 0
+2021-04-02 11:51:59	NewBlock 81, Txs: 0, Rows: 0
+2021-04-02 12:03:42	Entity (00000105, 00000000a5f469772104cc580184e7dcc6a551f6) added successfully
+2021-04-02 12:03:42	Entity (00000205, 00000000a5f469772104cc580184e7dcc6a551f6) added successfully
+2021-04-02 12:03:42	Entity (00000106, 00000000a5f469772104cc580184e7dcc6a551f6) added successfully
+2021-04-02 12:03:42	Entity (00000206, 00000000a5f469772104cc580184e7dcc6a551f6) added successfully
+2021-04-02 12:03:42	Entity (00000107, 00000000a5f469772104cc580184e7dcc6a551f6) added successfully
+2021-04-02 12:03:42	Entity (00000207, 00000000a5f469772104cc580184e7dcc6a551f6) added successfully
+2021-04-02 12:03:42	Starting new import 1 with 6 entities from block 70
+2021-04-02 12:03:42	Import: 1, Entity: (00000105, 00000000a5f469772104cc580184e7dcc6a551f6), transferred txs: 0
+2021-04-02 12:03:42	Import: 1, Entity: (00000205, 00000000a5f469772104cc580184e7dcc6a551f6), transferred txs: 0
+2021-04-02 12:03:42	Import: 1, Entity: (00000106, 00000000a5f469772104cc580184e7dcc6a551f6), transferred txs: 0
+2021-04-02 12:03:43	Import: 1, Entity: (00000206, 00000000a5f469772104cc580184e7dcc6a551f6), transferred txs: 0
+2021-04-02 12:03:43	Import: 1, Entity: (00000107, 00000000a5f469772104cc580184e7dcc6a551f6), transferred txs: 0
+2021-04-02 12:03:43	Import: 1, Entity: (00000207, 00000000a5f469772104cc580184e7dcc6a551f6), transferred txs: 0
+2021-04-02 12:03:43	Import 1 successfully started
+2021-04-02 12:03:43	Tx a5f469772104cc580184e7dcc6a551f679bc4e1706a4c5bc8408e28c40785313 ignored for import 1
+2021-04-02 12:03:43	NewBlock 71, Txs: 0, Rows: 0
+2021-04-02 12:03:43	NewBlock 72, Txs: 0, Rows: 0
+2021-04-02 12:03:43	NewBlock 73, Txs: 0, Rows: 0
+2021-04-02 12:03:43	NewBlock 74, Txs: 0, Rows: 0
+2021-04-02 12:03:43	NewBlock 75, Txs: 0, Rows: 0
+2021-04-02 12:03:43	NewBlock 76, Txs: 0, Rows: 0
+2021-04-02 12:03:43	NewBlock 77, Txs: 0, Rows: 0
+2021-04-02 12:03:43	NewBlock 78, Txs: 0, Rows: 0
+2021-04-02 12:03:43	NewBlock 79, Txs: 0, Rows: 0
+2021-04-02 12:03:43	NewBlock 80, Txs: 0, Rows: 0
+2021-04-02 12:03:43	NewBlock 81, Txs: 0, Rows: 0
+2021-04-02 12:03:43	Import: 1, Transferring entity (00000105, 00000000a5f469772104cc580184e7dcc6a551f6) to the chain, txs: 0
+2021-04-02 12:03:43	Import: 1, Transferring entity (00000205, 00000000a5f469772104cc580184e7dcc6a551f6) to the chain, txs: 0
+2021-04-02 12:03:43	Import: 1, Transferring entity (00000106, 00000000a5f469772104cc580184e7dcc6a551f6) to the chain, txs: 0
+2021-04-02 12:03:43	Import: 1, Transferring entity (00000206, 00000000a5f469772104cc580184e7dcc6a551f6) to the chain, txs: 0
+2021-04-02 12:03:43	Import: 1, Transferring entity (00000107, 00000000a5f469772104cc580184e7dcc6a551f6) to the chain, txs: 0
+2021-04-02 12:03:43	Import: 1, Transferring entity (00000207, 00000000a5f469772104cc580184e7dcc6a551f6) to the chain, txs: 0
+2021-04-02 12:03:43	CompleteImport: Successfully updated chain after import 1, removing old records
+2021-04-02 12:03:43	CompleteImport: Import 1 completed
+2021-04-02 12:48:00	NewTx 843b80c00cbcef786c2a3426e9359515a956c67980e186c8ee4423f464365e03, block -1, flags 00030004, import 0
+2021-04-02 12:48:20	UpdateTx 843b80c00c, block 82, flags 00030004, import 0
+2021-04-02 12:48:20	NewBlock 82, Txs: 3, Rows: 20
+2021-04-02 12:48:26	NewTx 37fc5f522f6d3a28ca94712f0df98c2bdc81cb3522bcd623ceb315d6d8c94f7d, block -1, flags 00030004, import 0
+2021-04-02 12:48:30	UpdateTx 37fc5f522f, block 83, flags 00030004, import 0
+2021-04-02 12:48:30	NewBlock 83, Txs: 1, Rows: 16
+2021-04-02 12:48:39	NewBlock 84, Txs: 0, Rows: 0
+2021-04-02 12:48:45	NewBlock 85, Txs: 0, Rows: 0
+2021-04-02 12:48:47	NewBlock 86, Txs: 0, Rows: 0
+2021-04-02 12:48:50	NewBlock 87, Txs: 0, Rows: 0
+2021-04-02 12:48:57	NewBlock 88, Txs: 0, Rows: 0
+2021-04-02 12:49:10	NewBlock 89, Txs: 0, Rows: 0
+2021-04-02 12:49:18	NewBlock 90, Txs: 0, Rows: 0
+2021-04-02 12:49:34	NewBlock 91, Txs: 0, Rows: 0
+2021-04-02 12:49:45	NewBlock 92, Txs: 0, Rows: 0
+2021-04-02 12:49:51	NewBlock 93, Txs: 0, Rows: 0
+2021-04-02 13:25:54	NewTx 2733a12e90a2042ef6a464921408d3eec1e3014c527cb51481eb8f8fe985aeb5, block -1, flags 00030004, import 0
+2021-04-02 13:26:10	NewTx 1391794a0bf48937d641a7827d74dc875797b276ad339831f05e7f092716543f, block -1, flags 00030004, import 0
+2021-04-02 13:26:13	UpdateTx 2733a12e90, block 94, flags 00030004, import 0
+2021-04-02 13:26:13	UpdateTx 1391794a0b, block 94, flags 00030004, import 0
+2021-04-02 13:26:13	NewBlock 94, Txs: 2, Rows: 12
+2021-04-02 13:26:21	NewBlock 95, Txs: 0, Rows: 0
+2021-04-02 13:26:22	NewBlock 96, Txs: 0, Rows: 0
+2021-04-02 13:26:33	NewBlock 97, Txs: 0, Rows: 0
+2021-04-02 13:26:41	NewBlock 98, Txs: 0, Rows: 0
+2021-04-02 13:26:44	NewBlock 99, Txs: 0, Rows: 0
+2021-04-02 13:26:58	NewBlock 100, Txs: 0, Rows: 0
+2021-04-02 13:27:01	NewBlock 101, Txs: 0, Rows: 0
+2021-04-02 13:27:15	NewBlock 102, Txs: 0, Rows: 0
+2021-04-02 13:27:27	NewBlock 103, Txs: 0, Rows: 0
+2021-04-02 13:27:31	NewBlock 104, Txs: 0, Rows: 0
+2021-04-02 13:27:34	NewTx 8363d9417e9a196d177a356977bd0023f634feaafdbf0c830e4a631ddd42518e, block -1, flags 00030004, import 0
+2021-04-02 13:27:36	UpdateTx 8363d9417e, block 105, flags 00030004, import 0
+2021-04-02 13:27:36	NewBlock 105, Txs: 1, Rows: 6
+2021-04-02 13:28:06	NewBlock 106, Txs: 0, Rows: 0
+2021-04-02 13:28:27	NewTx e970c203e55d8511e4d20170f7963048823c0d76a860937c75f36e27c6283182, block -1, flags 00030004, import 0
+2021-04-02 13:28:32	UpdateTx e970c203e5, block 107, flags 00030004, import 0
+2021-04-02 13:28:32	NewBlock 107, Txs: 1, Rows: 8
+2021-04-02 13:28:47	NewBlock 108, Txs: 0, Rows: 0
+2021-04-02 13:29:09	NewBlock 109, Txs: 0, Rows: 0
+2021-04-02 13:29:22	NewBlock 110, Txs: 0, Rows: 0
+2021-04-02 13:29:32	NewBlock 111, Txs: 0, Rows: 0
+2021-04-02 13:29:40	NewBlock 112, Txs: 0, Rows: 0
+2021-04-02 13:29:53	NewBlock 113, Txs: 0, Rows: 0
+2021-04-02 13:30:17	NewBlock 114, Txs: 0, Rows: 0
+2021-04-02 13:30:27	NewBlock 115, Txs: 0, Rows: 0
+2021-04-02 13:30:37	NewBlock 116, Txs: 0, Rows: 0
+2021-04-02 13:30:59	NewBlock 117, Txs: 0, Rows: 0

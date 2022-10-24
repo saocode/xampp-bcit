@@ -1,0 +1,14 @@
+stages:
+  - run
+
+part1:
+  image: node:17-alpine
+  stage: run
+  script:
+    - node part1
+
+part2:
+  image: node:17-alpine
+  stage: run
+  script:
+    - node part2
