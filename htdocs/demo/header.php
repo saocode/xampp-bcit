@@ -55,6 +55,8 @@ function dynamicMenu($menuArray, $directory, $rootURL)
             $isName = true;
         if ($value == "finn.jpg")
             $isName = true;
+		if ($value == "hacker.jpg")
+            $isName = true;
         $info = pathinfo($value);
         if (isset($info["extension"])) {
             if ($info["extension"] == "json")
@@ -114,20 +116,16 @@ function dynamicMenu($menuArray, $directory, $rootURL)
 	<!-- Navbar -->
 	<div class="w3-top">
 		<div class="w3-bar w3-black w3-card">
-			<a
-				class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right"
-				href="javascript:void(0)"
-				onclick="smallMenu()"
-				title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a> <a
+		 <a
 				href="#"
 				class="w3-border-right w3-bar-item w3-button w3-padding-small"><b>MENU</a>
 			<a
 				href="#"
-				class="w3-border-right w3-bar-item w3-button w3-hide-small w3-padding-small">TOP</a>
+				class="w3-border-right w3-bar-item w3-button w3-padding-small">TOP</a>
 			<a
 				href="#footer"
-				class="w3-border-right w3-bar-item w3-button w3-hide-small w3-padding-small">BOTTOM</a>
-			<div class="w3-border-right w3-dropdown-hover w3-hide-small">
+				class="w3-border-right w3-bar-item w3-button w3-padding-small">BOTTOM</a>
+			<div class="w3-border-right w3-dropdown-hover">
 				<button
 					class="w3-button w3-padding-small"
 					title="Demo">
@@ -157,7 +155,7 @@ dynamicMenu($menuArray, $directory, $rootURL);
 			 </div>
 			</div>
 
-			<div class="w3-border-right w3-dropdown-hover w3-hide-small">
+			<div class="w3-border-right w3-dropdown-hover">
 				<button
 					class="w3-button  w3-padding-small"
 					title="Damn Vulnerable Web App">
@@ -168,10 +166,9 @@ dynamicMenu($menuArray, $directory, $rootURL);
 <?php
 
 
-echo "<a href=\"" . $domainURL . "dvwa\" class=\"w3-bar-item w3-button\">DVWA User Interface</a>\r\n";
-echo "<a href=\"" . $domainURL . "phpmyadmin\" class=\"w3-bar-item w3-button\">DVWA Database Administrator Interface</a>\r\n";
+echo "<a href=\"" . $domainURL . "dvwa\" target=\"_blank\" class=\"w3-bar-item w3-button\">DVWA User Interface</a>\r\n";
+echo "<a href=\"" . $domainURL . "phpmyadmin\index.php?lang=en\" target=\"_blank\" class=\"w3-bar-item w3-button\">DVWA Database Administrator Interface</a>\r\n";
 
-echo "<a href=\"" . $rootURL . "cve\" class=\"w3-bar-item w3-button\">CVE Tool</a>\r\n";
 
 
 
@@ -185,30 +182,13 @@ echo "<a href=\"" . $rootURL . "cve\" class=\"w3-bar-item w3-button\">CVE Tool</
 
 			<a
 				href="javascript:void(0)"
-				class="w3-border-left w3-padding-small w3-hover-red w3-hide-small w3-right"><i
+				class="w3-border-left w3-padding-small w3-hover-red w3-right"><i
 				class="fa fa-search"></i></a>
 		</div>
 	</div>
 
 	<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-	<div
-		id="navDemo"
-		class="w3-large w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top"
-		<?=$marginTop?>>
-		<a
-			href="#band"
-			class="w3-bar-item w3-button"
-			onclick="smallMenu()">BAND</a> <a
-			href="#tour"
-			class="w3-bar-item w3-button"
-			onclick="smallMenu()">TOUR</a> <a
-			href="#contact"
-			class="w3-bar-item w3-button"
-			onclick="smallMenu()">CONTACT</a> <a
-			href="#"
-			class="w3-bar-item w3-button"
-			onclick="smallMenu()">MERCH</a> </b>
-	</div>
+	
 
 	<div <?=$marginTop?>></div>
 	<!-- Page Header -->
