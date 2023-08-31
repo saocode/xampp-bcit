@@ -1640,3 +1640,149 @@ The system cannot find the file specified.
 The system cannot find the file specified.
 The system cannot find the file specified.
 The system cannot find the file specified.
+[Wed May 03 12:39:13.644535 2023] [alias:warn] [pid 400:tid 220] AH00671: The Alias directive in C:/xampp/apache/conf/extra/httpd-xampp.conf at line 98 will probably never match because it overlaps an earlier Alias.
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Wed May 03 12:39:13.675771 2023] [core:warn] [pid 400:tid 220] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 03 12:39:13.675771 2023] [ssl:warn] [pid 400:tid 220] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 03 12:39:15.504063 2023] [mpm_winnt:notice] [pid 400:tid 220] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Wed May 03 12:39:15.504063 2023] [mpm_winnt:notice] [pid 400:tid 220] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Wed May 03 12:39:15.504063 2023] [core:notice] [pid 400:tid 220] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Wed May 03 12:39:15.504063 2023] [mpm_winnt:notice] [pid 400:tid 220] AH00418: Parent: Created child process 2944
+[Wed May 03 12:39:15.675862 2023] [alias:warn] [pid 2944:tid 232] AH00671: The Alias directive in C:/xampp/apache/conf/extra/httpd-xampp.conf at line 98 will probably never match because it overlaps an earlier Alias.
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Wed May 03 12:39:15.722717 2023] [alias:warn] [pid 2944:tid 232] AH00671: The Alias directive in C:/xampp/apache/conf/extra/httpd-xampp.conf at line 98 will probably never match because it overlaps an earlier Alias.
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Wed May 03 12:39:15.738335 2023] [ssl:warn] [pid 2944:tid 232] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 03 12:39:15.769571 2023] [mpm_winnt:notice] [pid 2944:tid 232] AH00354: Child: Starting 150 worker threads.
+[Wed May 03 12:46:17.365529 2023] [php7:notice] [pid 2944:tid 1544] [client 198.235.24.19:50253] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Wed May 03 12:46:17.365529 2023] [php7:notice] [pid 2944:tid 1544] [client 198.235.24.19:50253] PHP Stack trace:
+[Wed May 03 12:46:17.365529 2023] [php7:notice] [pid 2944:tid 1544] [client 198.235.24.19:50253] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Wed May 03 13:04:04.633454 2023] [php7:error] [pid 2944:tid 1552] [client 89.253.225.164:35354] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Wed May 03 13:11:36.410964 2023] [php7:error] [pid 2944:tid 1544] [client 51.144.238.41:55010] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Wed May 03 13:19:45.676463 2023] [php7:error] [pid 2944:tid 1544] [client 185.179.83.247:30611] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Wed May 03 14:55:50.524730 2023] [php7:error] [pid 2944:tid 1552] [client 144.126.211.70:39808] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Wed May 03 15:14:57.378116 2023] [php7:error] [pid 2944:tid 1544] [client 148.72.244.186:48538] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Wed May 03 17:16:09.271371 2023] [php7:error] [pid 2944:tid 1540] [client 92.204.146.118:34464] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Wed May 03 17:25:00.153649 2023] [php7:error] [pid 2944:tid 1540] [client 103.147.35.54:59040] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Wed May 03 17:32:30.575075 2023] [php7:error] [pid 2944:tid 1532] [client 45.55.129.194:40162] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Wed May 03 17:48:00.953554 2023] [php7:error] [pid 2944:tid 1540] [client 114.119.173.151:47076] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Wed May 03 19:10:48.650564 2023] [php7:error] [pid 2944:tid 1532] [client 77.37.208.205:59066] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Wed May 03 19:14:20.288235 2023] [core:error] [pid 2944:tid 1540] [client 152.89.196.144:45630] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed May 03 19:34:24.666512 2023] [php7:error] [pid 2944:tid 1540] [client 209.151.152.207:44552] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Wed May 03 21:24:56.553146 2023] [php7:error] [pid 2944:tid 1532] [client 45.55.129.194:24190] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Wed May 03 22:24:53.166134 2023] [php7:error] [pid 2944:tid 1532] [client 64.225.16.189:51400] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Wed May 03 22:38:50.674877 2023] [php7:notice] [pid 2944:tid 1532] [client 143.198.20.90:20000] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Wed May 03 22:38:50.674877 2023] [php7:notice] [pid 2944:tid 1532] [client 143.198.20.90:20000] PHP Stack trace:
+[Wed May 03 22:38:50.674877 2023] [php7:notice] [pid 2944:tid 1532] [client 143.198.20.90:20000] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Wed May 03 22:47:29.445724 2023] [php7:notice] [pid 2944:tid 1532] [client 205.210.31.27:49851] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Wed May 03 22:47:29.445724 2023] [php7:notice] [pid 2944:tid 1532] [client 205.210.31.27:49851] PHP Stack trace:
+[Wed May 03 22:47:29.445724 2023] [php7:notice] [pid 2944:tid 1532] [client 205.210.31.27:49851] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Wed May 03 22:48:58.476387 2023] [php7:error] [pid 2944:tid 1540] [client 82.200.235.138:33101] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Wed May 03 23:56:16.534837 2023] [php7:notice] [pid 2944:tid 1540] [client 66.249.69.68:42165] PHP Notice:  Undefined variable: domainURL in C:\\xampp\\htdocs\\demo\\header.php on line 169
+[Wed May 03 23:56:16.534837 2023] [php7:notice] [pid 2944:tid 1540] [client 66.249.69.68:42165] PHP Stack trace:
+[Wed May 03 23:56:16.534837 2023] [php7:notice] [pid 2944:tid 1540] [client 66.249.69.68:42165] PHP   1. {main}() C:\\xampp\\htdocs\\demo\\staging\\welcomeJavaScript.php:0
+[Wed May 03 23:56:16.534837 2023] [php7:notice] [pid 2944:tid 1540] [client 66.249.69.68:42165] PHP   2. include() C:\\xampp\\htdocs\\demo\\staging\\welcomeJavaScript.php:4
+[Wed May 03 23:56:16.534837 2023] [php7:notice] [pid 2944:tid 1540] [client 66.249.69.68:42165] PHP   3. include() C:\\xampp\\htdocs\\demo\\staging\\headerScript.php:18
+[Wed May 03 23:56:16.534837 2023] [php7:notice] [pid 2944:tid 1540] [client 66.249.69.68:42165] PHP Notice:  Undefined variable: domainURL in C:\\xampp\\htdocs\\demo\\header.php on line 170
+[Wed May 03 23:56:16.534837 2023] [php7:notice] [pid 2944:tid 1540] [client 66.249.69.68:42165] PHP Stack trace:
+[Wed May 03 23:56:16.534837 2023] [php7:notice] [pid 2944:tid 1540] [client 66.249.69.68:42165] PHP   1. {main}() C:\\xampp\\htdocs\\demo\\staging\\welcomeJavaScript.php:0
+[Wed May 03 23:56:16.534837 2023] [php7:notice] [pid 2944:tid 1540] [client 66.249.69.68:42165] PHP   2. include() C:\\xampp\\htdocs\\demo\\staging\\welcomeJavaScript.php:4
+[Wed May 03 23:56:16.534837 2023] [php7:notice] [pid 2944:tid 1540] [client 66.249.69.68:42165] PHP   3. include() C:\\xampp\\htdocs\\demo\\staging\\headerScript.php:18
+[Thu May 04 00:03:39.206511 2023] [php7:error] [pid 2944:tid 1532] [client 104.236.55.36:32677] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu May 04 00:18:13.208688 2023] [php7:error] [pid 2944:tid 1532] [client 5.101.156.210:55769] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu May 04 00:39:51.737936 2023] [php7:error] [pid 2944:tid 1540] [client 170.64.162.52:55204] script 'C:/xampp/htdocs/upl.php' not found or unable to stat
+[Thu May 04 01:05:19.303492 2023] [php7:error] [pid 2944:tid 1540] [client 103.147.35.54:49708] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu May 04 01:16:28.407624 2023] [php7:error] [pid 2944:tid 1540] [client 39.105.120.190:44294] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu May 04 01:26:16.558467 2023] [php7:error] [pid 2944:tid 1548] [client 66.249.69.68:37289] script 'C:/xampp/htdocs/demo/Copy of advent9.php' not found or unable to stat
+[Thu May 04 01:29:50.207650 2023] [php7:error] [pid 2944:tid 1548] [client 39.105.120.190:48172] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu May 04 01:31:06.268755 2023] [php7:error] [pid 2944:tid 1540] [client 52.167.144.96:3264] script 'C:/xampp/htdocs/demo/advent10.php' not found or unable to stat
+[Thu May 04 01:41:53.526315 2023] [php7:error] [pid 2944:tid 1548] [client 112.78.3.14:53552] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu May 04 03:03:33.799319 2023] [php7:error] [pid 2944:tid 1544] [client 65.254.59.194:47624] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu May 04 03:36:09.164756 2023] [php7:error] [pid 2944:tid 1544] [client 3.6.23.70:36210] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu May 04 03:37:54.068979 2023] [php7:error] [pid 2944:tid 1544] [client 34.175.73.202:43706] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu May 04 05:01:06.085463 2023] [php7:error] [pid 2944:tid 1536] [client 52.167.144.96:9536] script 'C:/xampp/htdocs/demo/advent9.php' not found or unable to stat
+[Thu May 04 05:37:58.910585 2023] [php7:error] [pid 2944:tid 1536] [client 114.119.173.151:54826] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu May 04 05:57:48.744102 2023] [php7:error] [pid 2944:tid 1536] [client 192.241.135.47:38424] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu May 04 06:25:18.276961 2023] [php7:error] [pid 2944:tid 1544] [client 139.59.80.184:37724] script 'C:/xampp/htdocs/upl.php' not found or unable to stat
+[Thu May 04 07:30:20.103051 2023] [php7:error] [pid 2944:tid 1544] [client 159.100.30.51:43080] script 'C:/xampp/htdocs/info.php' not found or unable to stat
+[Thu May 04 07:31:33.680623 2023] [php7:error] [pid 2944:tid 1536] [client 185.9.147.250:39400] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu May 04 08:00:14.615221 2023] [php7:error] [pid 2944:tid 1544] [client 51.144.238.41:51932] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu May 04 08:15:08.989670 2023] [php7:error] [pid 2944:tid 1536] [client 5.135.152.155:49304] script 'C:/xampp/htdocs/inputs.php' not found or unable to stat, referer: stevenoverland.com
+[Thu May 04 08:15:10.832818 2023] [php7:error] [pid 2944:tid 1544] [client 5.135.152.155:49768] script 'C:/xampp/htdocs/auto_seo.php' not found or unable to stat, referer: stevenoverland.com
+[Thu May 04 08:31:02.169208 2023] [php7:notice] [pid 2944:tid 1536] [client 45.55.68.11:55720] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Thu May 04 08:31:02.169208 2023] [php7:notice] [pid 2944:tid 1536] [client 45.55.68.11:55720] PHP Stack trace:
+[Thu May 04 08:31:02.169208 2023] [php7:notice] [pid 2944:tid 1536] [client 45.55.68.11:55720] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Thu May 04 09:26:03.911763 2023] [php7:error] [pid 2944:tid 1544] [client 185.191.171.1:16058] script 'C:/xampp/htdocs/demo/steam.php' not found or unable to stat
+[Thu May 04 09:56:22.519246 2023] [php7:error] [pid 2944:tid 1544] [client 65.254.59.194:48364] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu May 04 10:24:06.443215 2023] [php7:error] [pid 2944:tid 1536] [client 128.199.26.128:42328] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu May 04 10:53:30.385679 2023] [php7:error] [pid 2944:tid 1552] [client 185.15.196.34:43986] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu May 04 10:54:49.665418 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.40:6778] PHP Notice:  Undefined variable: domainURL in C:\\xampp\\htdocs\\demo\\header.php on line 169
+[Thu May 04 10:54:49.665418 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.40:6778] PHP Stack trace:
+[Thu May 04 10:54:49.665418 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.40:6778] PHP   1. {main}() C:\\xampp\\htdocs\\demo\\staging\\w3.php:0
+[Thu May 04 10:54:49.665418 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.40:6778] PHP   2. include() C:\\xampp\\htdocs\\demo\\staging\\w3.php:1
+[Thu May 04 10:54:49.665418 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.40:6778] PHP   3. include() C:\\xampp\\htdocs\\demo\\staging\\headerScript.php:18
+[Thu May 04 10:54:49.665418 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.40:6778] PHP Notice:  Undefined variable: domainURL in C:\\xampp\\htdocs\\demo\\header.php on line 170
+[Thu May 04 10:54:49.665418 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.40:6778] PHP Stack trace:
+[Thu May 04 10:54:49.665418 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.40:6778] PHP   1. {main}() C:\\xampp\\htdocs\\demo\\staging\\w3.php:0
+[Thu May 04 10:54:49.665418 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.40:6778] PHP   2. include() C:\\xampp\\htdocs\\demo\\staging\\w3.php:1
+[Thu May 04 10:54:49.665418 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.40:6778] PHP   3. include() C:\\xampp\\htdocs\\demo\\staging\\headerScript.php:18
+[Thu May 04 10:54:49.665418 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.40:6778] PHP Warning:  include(tools\\setCookieForm.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\demo\\staging\\w3.php on line 22
+[Thu May 04 10:54:49.665418 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.40:6778] PHP Stack trace:
+[Thu May 04 10:54:49.665418 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.40:6778] PHP   1. {main}() C:\\xampp\\htdocs\\demo\\staging\\w3.php:0
+[Thu May 04 10:54:49.665418 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.40:6778] PHP Warning:  include(): Failed opening 'tools\\setCookieForm.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\demo\\staging\\w3.php on line 22
+[Thu May 04 10:54:49.681038 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.40:6778] PHP Stack trace:
+[Thu May 04 10:54:49.681038 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.40:6778] PHP   1. {main}() C:\\xampp\\htdocs\\demo\\staging\\w3.php:0
+[Thu May 04 10:54:49.681038 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.40:6778] PHP Warning:  include(tools\\deleteCookieForm.php): failed to open stream: No such file or directory in C:\\xampp\\htdocs\\demo\\staging\\w3.php on line 35
+[Thu May 04 10:54:49.681038 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.40:6778] PHP Stack trace:
+[Thu May 04 10:54:49.681038 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.40:6778] PHP   1. {main}() C:\\xampp\\htdocs\\demo\\staging\\w3.php:0
+[Thu May 04 10:54:49.681038 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.40:6778] PHP Warning:  include(): Failed opening 'tools\\deleteCookieForm.php' for inclusion (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\demo\\staging\\w3.php on line 35
+[Thu May 04 10:54:49.681038 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.40:6778] PHP Stack trace:
+[Thu May 04 10:54:49.681038 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.40:6778] PHP   1. {main}() C:\\xampp\\htdocs\\demo\\staging\\w3.php:0
+[Thu May 04 11:15:29.304347 2023] [php7:error] [pid 2944:tid 1552] [client 51.144.238.41:49446] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu May 04 11:29:27.523824 2023] [php7:error] [pid 2944:tid 1544] [client 66.249.69.36:48129] script 'C:/xampp/htdocs/diagram2.php' not found or unable to stat
+[Thu May 04 12:23:38.489285 2023] [php7:error] [pid 2944:tid 1552] [client 185.253.218.123:37000] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu May 04 12:24:58.178574 2023] [php7:error] [pid 2944:tid 1552] [client 209.151.152.207:50068] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu May 04 12:56:08.035589 2023] [php7:notice] [pid 2944:tid 1544] [client 205.210.31.29:55423] PHP Notice:  Undefined index: HTTP_HOST in C:\\xampp\\htdocs\\index.php on line 7
+[Thu May 04 12:56:08.035589 2023] [php7:notice] [pid 2944:tid 1544] [client 205.210.31.29:55423] PHP Stack trace:
+[Thu May 04 12:56:08.035589 2023] [php7:notice] [pid 2944:tid 1544] [client 205.210.31.29:55423] PHP   1. {main}() C:\\xampp\\htdocs\\index.php:0
+[Thu May 04 13:35:30.936058 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.5:11622] PHP Notice:  Undefined variable: domainURL in C:\\xampp\\htdocs\\demo\\header.php on line 169
+[Thu May 04 13:35:30.936058 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.5:11622] PHP Stack trace:
+[Thu May 04 13:35:30.936058 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.5:11622] PHP   1. {main}() C:\\xampp\\htdocs\\demo\\staging\\Copy (3) of template.php:0
+[Thu May 04 13:35:30.936058 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.5:11622] PHP   2. include() C:\\xampp\\htdocs\\demo\\staging\\Copy (3) of template.php:4
+[Thu May 04 13:35:30.936058 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.5:11622] PHP   3. include() C:\\xampp\\htdocs\\demo\\staging\\headerScript.php:18
+[Thu May 04 13:35:30.936058 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.5:11622] PHP Notice:  Undefined variable: domainURL in C:\\xampp\\htdocs\\demo\\header.php on line 170
+[Thu May 04 13:35:30.936058 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.5:11622] PHP Stack trace:
+[Thu May 04 13:35:30.936058 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.5:11622] PHP   1. {main}() C:\\xampp\\htdocs\\demo\\staging\\Copy (3) of template.php:0
+[Thu May 04 13:35:30.936058 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.5:11622] PHP   2. include() C:\\xampp\\htdocs\\demo\\staging\\Copy (3) of template.php:4
+[Thu May 04 13:35:30.936058 2023] [php7:notice] [pid 2944:tid 1544] [client 185.191.171.5:11622] PHP   3. include() C:\\xampp\\htdocs\\demo\\staging\\headerScript.php:18
+[Thu May 04 13:38:15.886025 2023] [php7:error] [pid 2944:tid 1552] [client 155.133.132.65:48952] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu May 04 13:44:22.488584 2023] [negotiation:error] [pid 2944:tid 1544] [client 93.158.91.203:34917] AH00690: no acceptable variant: C:/xampp/apache/error/HTTP_NOT_FOUND.html.var
+[Thu May 04 13:44:22.800980 2023] [negotiation:error] [pid 2944:tid 1544] [client 93.158.91.196:18731] AH00690: no acceptable variant: C:/xampp/apache/error/HTTP_NOT_FOUND.html.var
+[Thu May 04 13:44:23.113376 2023] [negotiation:error] [pid 2944:tid 1544] [client 93.158.91.208:21731] AH00690: no acceptable variant: C:/xampp/apache/error/HTTP_NOT_FOUND.html.var
+[Thu May 04 14:16:40.049479 2023] [php7:error] [pid 2944:tid 1552] [client 47.115.132.69:59090] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu May 04 15:06:11.854214 2023] [php7:error] [pid 2944:tid 1544] [client 209.151.152.207:57780] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu May 04 15:22:11.963570 2023] [php7:error] [pid 2944:tid 1544] [client 45.67.231.230:47360] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu May 04 16:03:55.189183 2023] [php7:error] [pid 2944:tid 1536] [client 103.110.86.217:53858] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu May 04 16:04:13.517183 2023] [php7:error] [pid 2944:tid 1552] [client 34.87.94.148:38876] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu May 04 16:14:21.598905 2023] [php7:error] [pid 2944:tid 1544] [client 95.214.26.15:64341] script 'C:/xampp/htdocs/dvwa/style.php' not found or unable to stat, referer: www.google.com
+[Thu May 04 16:41:57.510363 2023] [php7:error] [pid 2944:tid 1544] [client 114.119.173.151:36518] script 'C:/xampp/htdocs/wp-login.php' not found or unable to stat
+[Thu Aug 31 10:05:35.314815 2023] [alias:warn] [pid 524:tid 220] AH00671: The Alias directive in C:/xampp/apache/conf/extra/httpd-xampp.conf at line 98 will probably never match because it overlaps an earlier Alias.
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Thu Aug 31 10:05:35.346055 2023] [core:warn] [pid 524:tid 220] AH00098: pid file C:/xampp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Aug 31 10:05:35.346055 2023] [ssl:warn] [pid 524:tid 220] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Aug 31 10:05:37.650996 2023] [mpm_winnt:notice] [pid 524:tid 220] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Thu Aug 31 10:05:37.650996 2023] [mpm_winnt:notice] [pid 524:tid 220] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Thu Aug 31 10:05:37.650996 2023] [core:notice] [pid 524:tid 220] AH00094: Command line: 'c:\\xampp\\apache\\bin\\httpd.exe -d C:/xampp/apache'
+[Thu Aug 31 10:05:37.650996 2023] [mpm_winnt:notice] [pid 524:tid 220] AH00418: Parent: Created child process 2068
+[Thu Aug 31 10:05:37.822817 2023] [alias:warn] [pid 2068:tid 232] AH00671: The Alias directive in C:/xampp/apache/conf/extra/httpd-xampp.conf at line 98 will probably never match because it overlaps an earlier Alias.
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Thu Aug 31 10:05:37.838437 2023] [alias:warn] [pid 2068:tid 232] AH00671: The Alias directive in C:/xampp/apache/conf/extra/httpd-xampp.conf at line 98 will probably never match because it overlaps an earlier Alias.
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wiki/] does not exist
+AH00112: Warning: DocumentRoot [C:/xampp/htdocs/wes] does not exist
+[Thu Aug 31 10:05:37.854057 2023] [ssl:warn] [pid 2068:tid 232] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Aug 31 10:05:37.900917 2023] [mpm_winnt:notice] [pid 2068:tid 232] AH00354: Child: Starting 150 worker threads.
